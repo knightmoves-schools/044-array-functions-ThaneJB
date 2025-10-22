@@ -2,9 +2,10 @@ var automobiles = ["car", "truck", "motorcycle"];
 automobiles.push("airplane", "skateboard");
 automobiles.unshift("bike", "helicopter");
 
-var automobilesCopy = automobiles;
+var automobilesCopy = `${automobiles}`;
 automobiles.pop();
 automobiles.shift();
 
 document.getElementById("result").innerHTML = automobiles;
+
 
