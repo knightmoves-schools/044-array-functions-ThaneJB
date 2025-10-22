@@ -3,7 +3,8 @@ automobiles.push("airplane", "skateboard");
 automobiles.unshift("bike", "helicopter");
 
 var automobilesCopy = automobiles;
-automobilesCopy.pop();
-automobilesCopy.shift();
+automobiles.pop();
+automobiles.shift();
 
 document.getElementById("result").innerHTML = automobiles;
+
